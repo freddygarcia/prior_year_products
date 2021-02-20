@@ -27,16 +27,20 @@ The pw_shell.py file is a bash utility to use the library in the command line
 # Development Details
 
 ## Python version
+
+```
 python >= 3.8.5
+```
 
 
 ## Dependencies
 
+```
 beautifulsoup4==4.9.3
 bs4==0.0.1
 pandas==1.2.2
 requests==2.25.1
-
+```
 
 ## Development time
 
@@ -47,11 +51,11 @@ About 4 hours.
 
 The task was straightforward. The steps to get the task done from the easiest to the hardest:
 
-1) parsing the html table to a dict
-2) handle pagination
-3) downloading the docs
-4) grouping the data using pandas to get the min and max year per form
-5) waiting for you to like the result :)
+1. parsing the html table to a dict
+2. handle pagination
+3. downloading the docs
+4. grouping the data using pandas to get the min and max year per form
+5. waiting for you to like the result :)
 
 
 ## To consider:
