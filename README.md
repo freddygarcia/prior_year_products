@@ -15,14 +15,19 @@ The pw_shell.py file is a bash utility to use the library in the command line
 
 ## Command line examples
 
-- Get json from form names:
+#### Get json from form names:
+
+```sh
     python pw_shell.py json -f "Form 100" "Form W-2"
     python pw_shell.py json --form_names "Form 100" "Form W-2"
+```
 
-- Download form pdf:
+#### Download form pdf:
+
+```sh
     python pw_shell.py download -f "Form 100" -yt 2020 -yf 2015
     python pw_shell.py download -f "Form W-2" --year-from 2012 --year-to 2019
-
+```
 
 # Development Details
 
